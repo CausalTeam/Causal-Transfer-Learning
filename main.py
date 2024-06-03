@@ -2,6 +2,8 @@ import numpy as np
 from sklearn.neural_network import MLPClassifier
 import statsmodels.api as sm
 import data_generator as dg
+import warnings
+warnings.filterwarnings('ignore')
 
 np.random.seed(42)
 
